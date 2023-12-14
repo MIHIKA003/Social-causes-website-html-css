@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wgth@400;700&display=swap">
+   <link rel="stylesheet" href="style1.css">
+    <title>Sigup</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <img src="White logo - no background.png" height="150px" width="300px" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                    <li class="dropdown">
+                        <a href="explore.html">CAUSES</a>
+                        <div class="dropdown-content">
+                            <a href="cause1.html">Cause 1</a>
+                            <a href="cause2.html">Cause 2</a>
+                            <a href="cause3.html">Cause 3</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="signup.html">SIGNUP</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-menu-64.png" class="menu-icon">
+        </div>
+        <div class="login-form">
+            <h1>Sign Up</h1>
+            <form action="signup.php" method="post">
+                <p> User Name</p>
+                <input type="text" name="user" placeholder="Username">
+                <p> Email Id</p>
+                <input type="email" name="email" placeholder="Email">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Password" required>
+                <p>Confirm Password</p>
+                <input type="password" name="cpassword" placeholder="Confirm Password" required>
+                <button onclick="location.href='login.html'">Sign Up</button>
+                <br>
+                <p class="user">Already a user? <a href="login.html">Login</a></p>
+                
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    &copy; 2023 GreenWorld Hub | Contact Us | Follow Us on Social Media
+</footer>
+</html>

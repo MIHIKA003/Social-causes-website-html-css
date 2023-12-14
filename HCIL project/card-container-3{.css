@@ -1,0 +1,29 @@
+.card-container-3{
+    overflow: hidden;
+    margin-left: 80px;
+    width: 20%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.template {
+    width: 20%;
+    height: 90px;
+    padding: 20px;
+    background-color: #302f2f;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 70px;
+    margin-left: -50px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    opacity: 100%;
+    position: absolute;
+    bottom: -100%; /* Initially, position the image outside the parent container */
+    left: 0;
+    right: 0;
+    transition: bottom 0.3s ease;
+}
+.card-container-3:hover .template {
+    bottom: 0; /* Position the image at the bottom of the parent container */
+}

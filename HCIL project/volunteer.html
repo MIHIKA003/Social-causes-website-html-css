@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wgth@400;700&display=swap">
+    <link rel="stylesheet" href="style1.css">
+    <title>Volunteer Opportunities</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <img src="White logo - no background.png" height="150px" width="300px" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="getinvolved.html">GET INVOLVED</a></li>
+                    <li class="dropdown">
+                        <a href="explore.html">CAUSES</a>
+                        <div class="dropdown-content">
+                            <a href="cause1.html">Cause 1</a>
+                            <a href="cause2.html">Cause 2</a>
+                            <a href="cause3.html">Cause 3</a>
+                        </div>
+                    </li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="signup.html">SIGNUP</a></li>
+                </ul>
+            </nav>
+            <img src="icons8-menu-64.png" class="menu-icon">
+        </div>
+        <div class="volunteer-opportunities">
+            <h2>Volunteer Opportunities</h2>
+            <p>
+                Explore various volunteer opportunities and make a positive impact on our mission to create a greener and more sustainable world. Your dedication and efforts can bring about real change and contribute to a brighter future for all.
+            </p>
+            <div class="volunteer-form">
+                <form action="home.html" method="post">
+                    <div class="form-left">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first_name" placeholder="First name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last_name" placeholder="Last name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <div class="form-group">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" id="phone-number" name="phone_number" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city" placeholder="City" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="skills">Skills</label>
+                            <select id="skills" name="skills">
+                                <option value="select">Select your skills</option>
+                                <option value="programming">Programming</option>
+                                <option value="design">Design</option>
+                                <option value="marketing">Marketing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Availability</label>
+                            <div>
+                                <input type="checkbox" id="morning" name="availability" value="morning">
+                                <label for="morning">Morning</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="afternoon" name="availability" value="afternoon">
+                                <label for="afternoon">Afternoon</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="evening" name="availability" value="evening">
+                                <label for="evening">Evening</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    &copy; 2023 GreenWorld Hub | Contact Us | Follow Us on Social Media
+</footer>
+</html>
+
